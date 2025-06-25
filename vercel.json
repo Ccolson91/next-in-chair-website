@@ -1,0 +1,15 @@
+{
+  "framework": "sveltekit",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "devCommand": "npm run dev",
+  "env": {
+    "PUBLIC_SUPABASE_URL": "https://umeqctwilfdlhheqbscd.supabase.co",
+    "PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVtZXFjdHdpbGZkbGhoZXFic2NkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA3OTg3MTcsImV4cCI6MjA2NjM3NDcxN30.kZIJe_enONH-diDxqfFLUjxjpwIqmX_8h3Hz_aDbLQ4"
+  },
+  "regions": ["iad1"],
+  "github": {
+    "autoJobCancelation": false
+  }
+}
