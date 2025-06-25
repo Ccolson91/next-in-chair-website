@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nextinchair.com/sitemap.xml
+
+# Block common bot paths
+Disallow: /api/
+Disallow: /_app/
+Disallow: /admin/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /pricing
+Allow: /features
+Allow: /about
+Allow: /contact
+
